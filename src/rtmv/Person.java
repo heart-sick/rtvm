@@ -71,7 +71,11 @@ public class Person extends MyConnection{
        return this.gender;
     }
     
-    //insert new record to persons table
+    /**
+     * 
+     * @return
+     * @throws SQLException 
+     */
     @SuppressWarnings("ConvertToTryWithResources")
     public int create() throws SQLException{
         
